@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "question": "What are the eligibility criteria for admission?",
+            "response": "The eligibility criteria for admission include a minimum of 60% marks in 12th grade with PCM (Physics, Chemistry, Mathematics) for the CSE program."
+        },
+        {
+            "question": "What is the admission process?",
+            "response": "The admission process includes filling out an online application, appearing for an entrance exam, and attending a counseling session."
+        },
+        {
+            "question": "What are the available specializations in CSE?",
+            "response": "Our CSE department offers specializations in AI & ML, Cybersecurity, Data Science, and Cloud Computing."
+        },
+        {
+            "question": "What is the tuition fee for the CSE program?",
+            "response": "The tuition fee for the CSE program is approximately ₹1,50,000 per year."
+        },
+        {
+            "question": "Are there any scholarships available?",
+            "response": "Yes, we offer merit-based scholarships for students scoring above 90% in their 12th-grade exams and need-based financial aid."
+        },
+        {
+            "question": "What is the placement record of the CSE department?",
+            "response": "Our CSE department has a placement rate of 95%, with top recruiters like Google, Microsoft, and Amazon."
+        },
+        {
+            "question": "What entrance exams are accepted?",
+            "response": "We accept JEE Main, CET, and our university's own entrance test."
+        },
+        {
+            "question": "What is the duration of the CSE program?",
+            "response": "The Bachelor of Technology (B.Tech) in CSE is a 4-year program."
+        },
+        {
+            "question": "Is hostel accommodation available?",
+            "response": "Yes, hostel accommodation is available for both boys and girls, with modern facilities and WiFi."
+        },
+        {
+            "question": "Who can I contact for more admission details?",
+            "response": "You can contact our admission office at admissions@university.edu or call +91-9876543210."
+        }
+    ]
+}
