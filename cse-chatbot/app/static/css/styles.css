@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 50px;
+    background: rgb(210,85,213);
+    background: radial-gradient(circle, rgba(210,85,213,1) 0%, rgba(147,16,172,1) 100%);
 }
 #chat-box {
     border: 1px solid #ccc;
@@ -10,11 +12,19 @@ body {
     padding: 10px;
     height: 300px;
     overflow-y: auto;
+    background-color: whitesmoke;
+    border:none;
+    border-radius:10px ;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2); /* Transparent effect */
 }
 input {
     width: 40%;
     padding: 10px;
+    border:none;
 }
 button {
     padding: 10px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8); 
 }
