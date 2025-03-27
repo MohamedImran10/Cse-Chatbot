@@ -39,6 +39,10 @@
         {
             "question": "Who can I contact for more admission details?",
             "response": "You can contact our admission office at admissions@university.edu or call +91-9876543210."
+        },
+        {
+            "question":"What is the college name?",
+            "response":"Velalar College of Engineering and Technology"
         }
     ]
 }
