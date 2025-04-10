@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 from app.chatbot import Chatbot
+import re
 
 app = Flask(__name__, static_folder="app/static", template_folder="app/templates")
 
@@ -14,7 +15,11 @@ def chat():
     data = request.get_json()
     user_input = data.get("message", "")
     response = chatbot.get_response(user_input)
-    return jsonify({"response": response})
+
+    # Remove **bold** formatting
+    clean_response = re.sub(r"\*\*(.*?)\*\*", r"\1", response)
+
+    return jsonify({"response": clean_response})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",debug=False)
