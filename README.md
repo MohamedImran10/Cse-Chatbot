@@ -15,6 +15,7 @@ A hybrid chatbot for handling CSE admission queries. Combines predefined FAQs an
 -Easy to integrate into college websites
 
 🛠️ **Technologies Used**
+
 Flask
 
 Python
