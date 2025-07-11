@@ -1,4 +1,4 @@
-🤖 **Project 2: CSE Admission Query Chatbot**
+🤖 #CSE Admission Query Chatbot
 
 💡 **Overview**
 
