@@ -5,6 +5,7 @@
 A hybrid chatbot for handling CSE admission queries. Combines predefined FAQs and AI-powered dynamic responses using Gemini Flash 1.5 API. Built with Flask for backend and HTML, CSS, JS, jQuery, Bootstrap for frontend.
 
 ⚙️**Features**
+
 -Static FAQs from a JSON file
 
 -Dynamic AI-based responses for complex queries
