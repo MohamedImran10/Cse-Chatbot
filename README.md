@@ -1,4 +1,4 @@
-🤖 #CSE Admission Query Chatbot
+# CSE Admission Query Chatbot
 
 💡 **Overview**
 
@@ -28,6 +28,14 @@ Bootstrap
 Gemini Flash 1.5 API
 
 💻 **Screenshots**
+
+1.Simple Query(exisiting in responses.json)
+
+<img width="1022" height="491" alt="default" src="https://github.com/user-attachments/assets/857a6955-7621-4698-8f72-ef923b5f4353" />
+
+2.Complex Query
+
+<img width="1010" height="486" alt="complex" src="https://github.com/user-attachments/assets/276378f9-d03c-44ee-a5e3-50e9819dbcf7" />
 
 
 🚀 **Setup Instructions**
