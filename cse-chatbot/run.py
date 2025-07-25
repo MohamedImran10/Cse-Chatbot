@@ -22,4 +22,7 @@ def chat():
     return jsonify({"response": clean_response})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",debug=False)
+    # Use PORT environment variable if available (for cloud deployments)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)

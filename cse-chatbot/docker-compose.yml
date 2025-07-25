@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  cse-chatbot:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - PYTHONUNBUFFERED=1
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      # Optional: Mount logs directory if you want persistent logs
+      - ./logs:/app/logs
+    networks:
+      - chatbot-network
+
+networks:
+  chatbot-network:
+    driver: bridge
